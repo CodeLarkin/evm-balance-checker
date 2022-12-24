@@ -1,0 +1,20 @@
+{
+  "name": "evm-balances",
+  "version": "1.0.0",
+  "description": "A project to get the balance of an account on the all/any EVM netowrks using ethers.js and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dest && tsc -b tsconfig.json",
+    "start": "node dest/index.js"
+  },
+  "dependencies": {
+    "cli-progress": "^3.11.2",
+    "ethers": "5.5.1"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.0",
+    "@types/node": "^18.7.23",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}

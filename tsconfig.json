@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dest",
+    "lib": ["dom", "esnext", "es2017.object"],
+    "sourceMap": true,
+    "strict": true,
+    "module": "NodeNext",
+    "target": "es2020",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "declaration": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
